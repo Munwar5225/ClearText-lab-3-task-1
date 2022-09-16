@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40sp"
+        android:background="#C6C0CA33"
+        android:text="@string/undo_redo_app"
+        android:textColor="#000"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/textTyped"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20sp"
+        android:gravity="center"
+        android:hint="@string/type_here"
+        android:textColorHint="#616161"
+        android:textSize="20sp"
+        android:autofillHints=""
+        android:inputType="" />
+
+    <Button
+        android:id="@+id/clear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:background="#12000000"
+        android:padding="10sp"
+        android:text="@string/clear"
+        android:textColor="#090909"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/undo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:background="#12000000"
+        android:padding="10sp"
+        android:text="@string/undo"
+        android:textColor="#090909"
+        android:textSize="18sp" />
+
+
+</LinearLayout>
